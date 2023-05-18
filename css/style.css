@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 10rem;
+  margin: 0;
+  color: #a21122;
+  text-shadow: 0 0 10px #d70427;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+p.disclaimer {
+  font-size: 0.8rem;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  color: #222;
+}
+
+p.link {
+  margin-top: 0em;
+  font-size: 0.8rem;
+}
+
+p.link a {
+  color: #222;
+  text-decoration: none;
+}
+
+p.link a:hover {
+  color: #555;
+}
